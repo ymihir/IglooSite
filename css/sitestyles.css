@@ -1,0 +1,239 @@
+﻿/*services page*/
+    .igloo-srv-img {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .igloo-srv-heading1 {
+        font-size: 2.5rem !important;
+    }
+    .serviceReadmore{        
+    font-style: normal;
+    display: inline-block;
+    background-color: #4b7ecc;
+    padding: 5px 20px;
+    border-radius: 25px;
+    
+    margin-top: 10px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color:white;
+
+    }
+    .marginInSmallerScrs{
+        margin-top:30px;
+    }
+    /*end of services page*/
+
+    .allCaps{
+        text-transform:uppercase;
+    }
+    a:hover,a{
+        text-decoration:none;        
+    }
+    /**/
+
+    .row{
+        margin-right:0px;
+        margin-left:0px;
+    }
+
+/*digital marketing page*/
+.dm{
+    background-image: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/services/creative.png) !important;
+}
+.top-bar h1,.top-bar p,.top-bar p a{
+    color:#03558d !important;
+}
+
+.branding{
+    background-image:linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/services/branding.png) !important;
+}
+.uxui{
+    background-image:linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/services/webdesign.png) !important;
+}
+.corporatevideos{
+    background-image:linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/services/vm.jpg) !important;
+}
+.about-me{
+    background-image:linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/services/pm.png) !important;
+}
+.blogs{
+    background-image:linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, .1)), url(../img/blogs/blogs_bg.png) !important;
+}
+.contact{
+    background-image:linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, .1)), url(../img/contact_bg.png) !important;
+}
+/*end of digital marketing page*/
+/*Portfolio page*/
+.portfolio_item .portfolio_item_hover .item_info em{
+    background-color:#03558d !important;
+    color:white !important;
+}
+.portfolio .categories-grid .categories ul li a.active{
+    background-color: #03558d !important;
+}
+
+/*end of portfolio page*/
+
+/*common styles*/
+.box-primary-nav{
+    background:#03558d !important;
+}
+.box-primary-nav .box-label{
+    color:#03558d !Important;
+}
+.double-bounce1, .double-bounce2{
+    background:#03558d !important;
+}
+.img-thumbnail{
+    border:none !important;
+}
+.top-bar{
+    padding:150px 0 86px !important;
+}
+.main-container{
+    padding:10px !important;
+    padding-bottom: 20px !important;
+}
+footer{
+    position:fixed;
+    width:100%;
+    bottom:0px;
+}
+.main-container{
+    margin-bottom:50px !important;
+}
+.footer-link a{
+    color:white !important;
+}
+.quicklinks{
+    position:relative;
+    top:5px;
+}
+.quicklink,.quicklink a{
+    float: left;
+    color: white;
+    margin-right: 9px;
+    font-size:12px;
+}
+.socialLinks{
+    text-align:right;
+}
+.socialLinks a{
+    color:white !important;
+}
+.social-icon{
+    color:white;
+    margin-right: 19px;
+    font-size:18px;
+}
+.selectedIcon{
+    color:white !important;
+}
+.quicklink:hover{
+    color:white !important;
+}
+/*end of common styles*/
+
+/*contact page styles*/
+.contact-head1{
+    border-bottom:3px solid #03558d;
+}
+.contact-title{
+    color:#03558d !important;
+}
+.contact-icon{
+    font-size:2.5em;
+    margin-right: 19px;
+}
+.contact-canwehelp-block{
+    position:relative;
+}
+.contact-canwehelp{
+    position:absolute;
+    top:27%;
+    left:21%;
+    color:white;
+}
+.contact-canwe{
+    font-size:2.2rem;
+    position: relative;
+    top: 47px;
+    left: 4px;
+}
+.contact-help{
+    font-size:8rem;
+}
+.contactBtn{
+    height: 45px;
+    border: solid 3px #CCCCCC;
+    background: #03558d;
+    width: 153px;
+    line-height: 32px;
+    -webkit-transform: rotate(90deg);
+    font-weight: 600;
+    color: white;
+    /* transform: rotate(-90deg); */
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    text-align: center;
+    font-size: 17px;
+    position: fixed;
+    right: -55px;
+    top: 60%;
+    text-decoration:none;
+    
+}
+.contactBtn:hover,.contactBtn:focus{
+    color:white !important;
+    text-decoration:none;
+}
+.contact-head2{
+    padding-top:10px;
+}
+.marginBottom20px{
+    margin-bottom:20px;
+}
+/*end of contact page styles*/
+/*Who we are page*/
+.outclients-heading{
+    color:#03558d;
+    border-bottom:2px solid #03558d;
+    padding:10px 0px;
+}
+/*end of who we are page*/
+
+/*media queries*/
+@media only screen and (max-width: 320px) {
+    .portfolio-quicklink{
+        display:none;
+    }
+    .quicklinks{
+        float:none;
+    }
+}
+@media only screen and (max-width: 768px){
+    .socialLinks{
+        text-align:center;
+    }
+    .quicklinks{
+        margin-left:0px;
+    }
+    .selectedIcon{
+        font-size:14px;
+    }
+    .quicklinks a{
+        float:none;
+    }
+    .top-bar{
+        background-attachment: unset !important;
+    }
+}
+
+/*end of media queries*/
+/*social page*/
+.social{
+    background-image:linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/services/creative.png) !important;
+}
+/*end of social page*/
