@@ -28,15 +28,15 @@
 ==================================================*/
 
 /*@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /* General
 ==================================================*/
 
 html,
 body {
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    height: 100%;    
+    font-family:'Montserrat', sans-serif;
     line-height: 1.8;
     color: #403939;
 }
