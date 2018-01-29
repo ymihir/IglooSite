@@ -244,6 +244,9 @@ p {
     border-bottom:2px solid #03558d;
     padding:10px 0px;
 }
+.inspire-align{
+        margin-left:110px !important;
+    }
 /*end of who we are page*/
 
 /*media queries*/
@@ -256,6 +259,9 @@ p {
     }
 }
 @media only screen and (max-width: 768px){
+    .inspire-align{
+        margin-left:20px !important;
+    }
     .socialLinks{
         text-align:center;
     }
@@ -269,7 +275,7 @@ p {
         float:none;
     }
     .top-bar{
-        background-attachment: unset !important;
+        background-attachment:unset !important;
     }
 }
 

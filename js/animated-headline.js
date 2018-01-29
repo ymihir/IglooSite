@@ -42,7 +42,6 @@ jQuery(document).ready(function($){
 		var duration = animationDelay;
 		$headlines.each(function(){
 			var headline = $(this);
-			debugger
 			if(headline.hasClass('loading-bar')) {
 				duration = barAnimationDelay;
 				setTimeout(function(){ headline.find('.box-words-wrapper').addClass('is-loading') }, barWaiting);
@@ -57,8 +56,7 @@ jQuery(document).ready(function($){
 				words.each(function(){
 					var wordWidth = $(this).width();
 				    if (wordWidth > width) width = wordWidth;
-				});
-                console.log(width)
+				});                
 				headline.find('.box-words-wrapper').css('width', width);
 			};
 
